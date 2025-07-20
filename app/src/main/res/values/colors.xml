@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#4361EE</color>
+    <color name="primary_dark">#3A56D4</color>
+    <color name="primary_light">#4895EF</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#7209B7</color>
+    <color name="secondary_dark">#5A08A3</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#6C757D</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CC9F0</color>
+    <color name="error">#F72585</color>
+    <color name="warning">#FCA311</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary">#4361EE</color>
+    <color name="button_secondary">#7209B7</color>
+
+    <color name="empty_state_background">#F8F9FA</color>
+    <color name="button_text">#FFFFFF</color>
+</resources>

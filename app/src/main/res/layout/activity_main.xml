@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingVertical="24dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_university"
+                app:tint="@color/primary"
+                android:contentDescription="Faculty logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ibn Zohr University"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/primary"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Applied Sciences"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayt Melloul"
+                android:textSize="14sp"
+                android:textColor="@color/secondary"
+                android:fontFamily="@font/roboto_regular"
+                />
+        </LinearLayout>
+
+        <!-- App Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Study Assistant"
+            android:textSize="22sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <!-- Feature Buttons - Lightweight Implementation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Upload Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnUpload"
+                style="@style/FeatureButton"
+                android:text="Upload Course"
+                android:drawableTop="@drawable/ic_upload"
+                app:iconTint="@color/primary"/>
+
+            <!-- Ask Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAsk"
+                style="@style/FeatureButton"
+                android:text="Ask Question"
+                android:drawableTop="@drawable/ic_ask"
+                app:iconTint="@color/primary"/>
+
+            <!-- History Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHistory"
+                style="@style/FeatureButton"
+                android:text="Q/A History"
+                android:drawableTop="@drawable/ic_history"
+                app:iconTint="@color/primary"/>
+
+            <!-- Documents Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDocList"
+                style="@style/FeatureButton"
+                android:text="My Courses"
+                android:drawableTop="@drawable/ic_courses"
+                app:iconTint="@color/primary"/>
+        </LinearLayout>
+
+        <!-- How It Works  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works"
+            android:textSize="18sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="24dp"
+            android:paddingBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="8dp">
+
+                <TextView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/ic_step2"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Upload your course materials (PDF/DOCX)"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_primary"
+                    android:paddingStart="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="8dp">
+
+                <TextView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/ic_step1"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ask questions about your courses"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_primary"
+                    android:paddingStart="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="8dp">
+
+                <TextView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/ic_step3"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Get AI-powered answers instantly"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_primary"
+                    android:paddingStart="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

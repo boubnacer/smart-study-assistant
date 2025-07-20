@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart Study Assistant</string>
+    <string name="select_document_prompt">Select a document</string>
+    <string name="no_documents_available">No documents available</string>
+
+    <string name="delete_all">Delete All</string>
+    <string name="no_documents">No documents uploaded</string>
+    <string name="upload_document">Upload Document</string>
+
+    <string name="delete_all_confirmation">Are you sure you want to delete all documents?</string>
+    <string name="delete_all_button">Delete All</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="no_documents_message">No documents found</string>
+    <string name="upload_prompt">Upload documents to get started</string>
+</resources>

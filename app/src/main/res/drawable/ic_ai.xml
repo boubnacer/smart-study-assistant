@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Bulle de discussion -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M4,4h16c1.1,0 2,0.9 2,2v10c0,1.1 -0.9,2 -2,2H6l-4,4v-16c0,-1.1 0.9,-2 2,-2z" />
+
+    <!-- Carré représentant la puce AI -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M9,9h6v6h-6z" />
+
+    <!-- Pattes de la puce -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M9,7v-1 M15,7v-1 M9,18v-1 M15,18v-1
+                          M7,9h-1 M7,15h-1 M17,9h1 M17,15h1" />
+</vector>
